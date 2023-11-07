@@ -25,7 +25,7 @@ Send 50 credits to aleo1xxxxxx
 
 Щоб завантажити та запустити скрипт знадобиться машина із встановленою системою Ubuntu (перевірено на 22.04). Для завантаження та запуску скрипта потрібно ввести цю команду:
 ```
-sudo apt update -y && sudo apt install -y wget dos2unix && wget https://raw.githubusercontent.com/ZavodVenture/aleo_deployment/main/script.sh -O script.sh && dos2unix script.sh && chmod +x script.sh && ./script.sh
+sudo apt update -y && sudo apt install -y wget dos2unix && wget https://github.com/vmr2323/aleo_deployment/blob/main/script.sh -O script.sh && dos2unix script.sh && chmod +x script.sh && ./script.sh
 ```
 
 Після запуску скрипта потрібно буде просто ввести дані, які попросить скрипт і чекати.
